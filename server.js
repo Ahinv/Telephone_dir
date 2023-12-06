@@ -13,7 +13,7 @@ app.use(cors());
 // Initialize Firebase admin SDK
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://telephone-dir-14f0d-default-rtdb.firebaseio.com/'
+  databaseURL: 'https://telephone-dir-47792-default-rtdb.firebaseio.com/'
 });
 
 // Define a reference to the Firebase database
