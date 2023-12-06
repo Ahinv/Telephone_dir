@@ -4,7 +4,8 @@ const admin = require('firebase-admin');
 const serviceAccount = require('./firebase-key.json');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+// const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
